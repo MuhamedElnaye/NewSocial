@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font Awasome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Social_Media Website</title>
+  </head>
+  <body>
+    <!-- /* ############# start Nav-bar  ############# */ -->
+    <nav class="navigate">
+      <div class="container">
+        <h2 class="logo">NewSocial</h2>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+          <input type="search" placeholder="Search for creator" />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-post">create</label>
+          <div class="profile-image">
+            <img src="./images/profile-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /* ############# end Nav-bar  ############# */ -->
+    <!-- /* ############# start main-section  ############# */ -->
+    <div class="main">
+      <div class="container">
+        <!-- ############# start left section  #############-->
+        <div class="left">
+          <a class="profile">
+            <div class="profile-image">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+            <div class="handle">
+              <h4>M.El-Nayed</h4>
+              <p class="text-muted">@el-n</p>
+            </div>
+          </a>
+          <!-- start Sidbar -->
+          <div class="sidebar">
+            <a class="menu-item active">
+              <span><i class="fa-solid fa-house"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa-regular fa-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-item" id="notifications">
+              <span
+                ><i class="fa-solid fa-bell"
+                  ><small class="notifications-count">9+</small></i
+                ></span
+              >
+              <h3>Notifications</h3>
+              <!---------- Notification POPUP--------->
+              <div class="notifications-popup">
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-2.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>maged</b> accept your Friend reques
+                    <small class="text-muted">2 DAYES AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-11.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>Nor</b> accept your Friend reques
+                    <small class="text-muted">1 HOURS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-16.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>GAMAL</b> accept your Friend reques
+                    <small class="text-muted">4 MINUTS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-5.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>kARMA</b> accept your Friend reques
+                    <small class="text-muted">2 DAYES AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-2.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>mkooa</b> accept your Friend reques
+                    <small class="text-muted">6 DAYES AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-image">
+                    <img src="/images/profile-7.jpg" />
+                  </div>
+                  <div class="notifications-body">
+                    <b>KKOKA </b> accept your Friend reques
+                    <small class="text-muted">1 WEEK AGO</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="menu-item" id="messages-notifications">
+              <span
+                ><i class="fa-solid fa-envelope"
+                  ><small class="notifications-count">6</small></i
+                ></span
+              >
+              <h3>Messages</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa-solid fa-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa-solid fa-chart-line"></i></span>
+              <h3>analytics</h3>
+            </a>
+            <a class="menu-item" id="theme">
+              <span><i class="fa-solid fa-palette"></i></span>
+              <h3>theme</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa-solid fa-gears"></i></span>
+              <h3>settings</h3>
+            </a>
+          </div>
+          <!-- end Sidbar -->
+          <label class="btn btn-primary" for="create-post">create Post</label>
+        </div>
+        <!-- /* ############# end left section  ############# */ -->
+
+        <!-- /* ############# Start middle section  ############# */ -->
+        <div class="middle">
+          <!--  ############# Start STORYS  #############  -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-8.jpg" alt="" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-9.jpg" alt="" />
+              </div>
+              <p class="name">kkaoa</p>
+            </div>
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-14.jpg" alt="" />
+              </div>
+              <p class="name">Jomana</p>
+            </div>
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-11.jpg" alt="" />
+              </div>
+              <p class="name">krowas</p>
+            </div>
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-20.jpg" alt="" />
+              </div>
+              <p class="name">Yolool</p>
+            </div>
+            <div class="story">
+              <div class="profile-image">
+                <img src="./images/profile-13.jpg" alt="" />
+              </div>
+              <p class="name">forak</p>
+            </div>
+          </div>
+          <!--  ############# End STORYS  #############  -->
+          <!--  ############# Start Create Post  #############  -->
+          <form class="create-post">
+            <div class="profile-image">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+            <input
+              type="text"
+              placeholder="What's on your mind,M.El-Nayed?"
+              id="create-post"
+            />
+            <input type="submit" class="btn btn-primary" value="Post" />
+          </form>
+          <!--  ############# End Create Post  #############  -->
+          <!--  ############# Start Posts  #############  -->
+          <div class="posts">
+            <!--  ############# Start Post1  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-9.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>loolla ras</h3>
+                    <small>Dubia , 15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/profile-13.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-14.jpg" alt="" /></span>
+                <span><img src="./images/profile-16.jpg" alt="" /></span>
+                <span><img src="./images/profile-15.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post1  #############  -->
+            <!--  ############# Start Post2  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-14.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>roma</h3>
+                    <small>egypt , 11 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/profile-11.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-5.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-7.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 377 comments</div>
+            </div>
+            <!--  ############# End Post2  #############  -->
+            <!--  ############# Start Post3  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-14.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>gamla soe</h3>
+                    <small>erak , 2 hours AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/feed-2.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/feed-1.jpg" alt="" /></span>
+                <span><img src="./images/feed-4.jpg" alt="" /></span>
+                <span><img src="./images/feed-5.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post3  #############  -->
+            <!--  ############# Start Post4  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/feed-3.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>muhamed sary</h3>
+                    <small>Dubia , 15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/feed-5.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-9.jpg" alt="" /></span>
+                <span><img src="./images/profile-15.jpg" alt="" /></span>
+                <span><img src="./images/profile-7.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post4  #############  -->
+            <!--  ############# Start Post5  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-9.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>kris emal</h3>
+                    <small>qatea , 15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/story-6.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/feed-4.jpg" alt="" /></span>
+                <span><img src="./images/feed-3.jpg" alt="" /></span>
+                <span><img src="./images/feed-6.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post5  #############  -->
+            <!--  ############# Start Post6  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/feed-4.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>loolla ras</h3>
+                    <small>Dubia , 15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/story1.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-20.jpg" alt="" /></span>
+                <span><img src="./images/profile-17.jpg" alt="" /></span>
+                <span><img src="./images/profile-13.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post6  #############  -->
+            <!--  ############# Start Post7  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-9.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>darrae</h3>
+                    <small>amirica 12 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/profile-18.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-14.jpg" alt="" /></span>
+                <span><img src="./images/profile-16.jpg" alt="" /></span>
+                <span><img src="./images/profile-15.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post7  #############  -->
+            <!--  ############# Start Post8  #############  -->
+            <div class="post">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-image">
+                    <img src="./images/profile-9.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>loolla ras</h3>
+                    <small>Dubia , 15 MINUTES AGO</small>
+                  </div>
+                </div>
+                <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+              </div>
+              <div class="photo">
+                <img src="./images/profile-19.jpg" alt="" />
+              </div>
+              <div class="action-bottons">
+                <div class="interaction-buttons">
+                  <span><i class="fas fa-heart"></i></span>
+                  <span><i class="fas fa-comment-alt"></i></span>
+                  <span><i class="fas fa-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fas fa-bookmark"></i></span>
+                </div>
+              </div>
+              <div class="like-by">
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-11.jpg" alt="" /></span>
+                <span><img src="./images/profile-5.jpg" alt="" /></span>
+                <p>like by <b> boram</b> and <b>2,323 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>loolla ras</b>Lorem ipsum dolor sit amet.
+                  <span class="hash-tag">#LifeStyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">view all 277 comments</div>
+            </div>
+            <!--  ############# End Post8  #############  -->
+          </div>
+          <!--  ############# End Posts  #############  -->
+        </div>
+        <!-- /* ############# end middle section ############# */ -->
+
+        <!-- /* ############# Start right section ############# */ -->
+        <div class="right">
+          <div class="messages">
+            <div class="head">
+              <h4>Messages</h4>
+              <i class="fas fa-edit"></i>
+            </div>
+            <!-- start search bar -->
+            <div class="search-bar">
+              <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+              <input
+                type="search"
+                placeholder="Search for Messages"
+                id="message-search"
+              />
+            </div>
+            <!-- End  search bar -->
+            <!-- Start messages Catogeryes -->
+            <div class="catogery">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">requests(8)</h6>
+            </div>
+            <!-- End  messages Catogeryes -->
+            <!-- Start  Messages -->
+            <div class="message">
+              <div class="profile-image">
+                <img src="/images/profile-5.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>ayaum edwkk</h5>
+                <p class="text-muted">Just work up drwaaD.</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-image active">
+                <img src="/images/profile-16.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>karem aha</h5>
+                <p class="text-bold">2 New messages</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-image">
+                <img src="/images/profile-2.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>llods</h5>
+                <p class="text-muted">Just work up drwaaD.</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-image">
+                <img src="/images/profile-7.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>hjjj edwff</h5>
+                <p class="text-muted">work up drwaaD.</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-image active">
+                <img src="/images/profile-8.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>asmaa edwkk</h5>
+                <p class="text-bold">BirthDay Tomoro</p>
+              </div>
+            </div>
+          </div>
+          <!-- End  Messages -->
+          <!-- Start  Requests -->
+          <div class="frinds-request">
+            <h4>Requests</h4>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-13.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>hajaassj bass</h5>
+                  <p class="text-muted">8 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-14.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>kkak baas</h5>
+                  <p class="text-muted">7 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-20.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Galala kaas</h5>
+                  <p class="text-muted">9 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-19.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>alama ksla</h5>
+                  <p class="text-muted">5 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-14.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>moklkx ass</h5>
+                  <p class="text-muted">3 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-image">
+                  <img src="./images/profile-2.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Gamdkka</h5>
+                  <p class="text-muted">8 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+          </div>
+          <!-- End  Requests -->
+        </div>
+        <!-- /* ############# End right section  ############# */ -->
+      </div>
+    </div>
+    <!-- /* ############# end main-section  ############# */ -->
+
+    <!-- /* ############# Start Theme Custmization  ############# */ -->
+    <div class="customize-theme">
+      <div class="card">
+        <h2>Customize Your View</h2>
+        <p class="text-muted">
+          Manage your Font-size ,Color and The Background
+        </p>
+        <!------------start The Font size--------->
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3"></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+        <!------------End The Font size--------->
+        <!------------Start Primary Color of the Element In Your page--------->
+        <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+        <!------------End Primary Color of the Element In Your page--------->
+        <!------------Start BackGround light--------->
+        <div class="background">
+          <h4>BackGround</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1 ">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Light-Out</h5>
+            </div>
+          </div>
+        </div>
+        <!------------End BackGround light--------->
+      </div>
+    </div>
+    <!-- /* ############# end Theme Custmization  ############# */ -->
+    <script src="./main.js"></script>
+  </body>
+</html>
